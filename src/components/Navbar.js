@@ -24,8 +24,6 @@ class Navbar extends Component {
                                         aria-haspopup="true" aria-expanded="false">home</a>
                                     <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                         <a href={`${process.env.PUBLIC_URL}/`} className="dropdown-item">home 1</a>
-                                        <a href={`${process.env.PUBLIC_URL}/home-two`} className="dropdown-item">home 2</a>
-                                        <a href={`${process.env.PUBLIC_URL}/home-three`} className="dropdown-item">home 3</a>
                                         <a href={`${process.env.PUBLIC_URL}/blog`} className="dropdown-item">blog</a>
                                         <a href={`${process.env.PUBLIC_URL}/single-blog`} className="dropdown-item">blog single</a>
                                     </div>
